@@ -7,3 +7,75 @@
 	box-sizing: border-box;
 	/*outline: 1px solid red;*/
 }
+header{
+	background-color: #CCD1D1;
+	background-size: cover;
+}
+.container{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.hero{
+	background: url("../img/home.jpg") no-repeat;
+
+}
+.btn{
+	background-color: #2980B9;
+	color:white;
+}
+.hero .row{
+	margin:120px;
+}
+nav{
+	padding-top: 15px;
+}
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus{
+	text-decoration: none;
+	outline: none;
+	background: #B2BABB;
+	color:black;
+}
+
+#main-navigation
+{
+	z-index: 1;
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul
+{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.hackathon{
+
+	background-color:yellow;
+}
+footer{
+	background-color: #73C6B6;
+	color:white;
+	padding-left: 50px;
+}
+footer small{
+	color:yellow;
+}
+
+                   /*MEDIA*/
+@media screen and (max-width:768px)
+{
+	.texto .frase h2{
+		font-size: 20px;
+	}
+}
+
+
