@@ -5,8 +5,8 @@
 	box-sizing: border-box;
 	-webkit-transition: border-box;
 	-moz-box-sizing:border-box;
-	box-sizing: border-box;
-	outline: 1px solid red;*/
+	box-sizing: border-box;*/
+	outline: 1px solid red;
 }
 header{
 	background-color: #CCD1D1;
@@ -89,16 +89,18 @@ footer small{
                    /*MEDIA*/
 @media screen and (max-width:768px)
 {
-	.texto {
-		text-align: center;
 
-		
+	.texto {
+		text-align: center;	
 	}
 	.frase{
 		font-size: 25px;
 	}
+	.hero .row{
+	margin:0 auto;
+}
 	footer{
-		padding-left: 1px;
+		text-align: center;
 	}
 
 }
