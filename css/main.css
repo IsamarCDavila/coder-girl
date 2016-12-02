@@ -4,13 +4,28 @@
 	box-sizing: border-box;
 	-webkit-transition: border-box;
 	-moz-box-sizing:border-box;
-	box-sizing: border-box;
-	/*outline: 1px solid red;*/
+	/*box-sizing: border-box;
+	outline: 1px solid red;*/
 }
 header{
 	background-color: #CCD1D1;
 	background-size: cover;
 }
+#btn_menu{
+	border: 2px solid #73C6B6;
+}
+#btn_menu .icon-bar{
+	border: 2px solid #73C6B6;
+}
+.frase{
+	color:white;
+}
+/*ESTE ES EL HEADER*/
+header nav { text-align: center; }
+header nav ul { list-style-type: none; }
+header nav ul li { display: inline; }
+header nav ul li a { font-size: 15px; color: black;}
+header nav a:hover { text-decoration: none; }
 .container{
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -25,7 +40,7 @@ header{
 }
 .hero .row{
 	margin:120px;
-}
+}/*
 nav{
 	padding-top: 15px;
 }
@@ -40,8 +55,8 @@ nav li a:hover, nav li a:focus{
 	outline: none;
 	background: #B2BABB;
 	color:black;
-}
-
+}*/
+/*
 #main-navigation
 {
 	z-index: 1;
@@ -56,7 +71,7 @@ nav li a:hover, nav li a:focus{
 	padding: 10px;
 	border-radius: 5px;
 }
-
+*/
 .hackathon{
 
 	background-color:yellow;
@@ -73,9 +88,18 @@ footer small{
                    /*MEDIA*/
 @media screen and (max-width:768px)
 {
-	.texto .frase h2{
-		font-size: 20px;
+	.texto {
+		text-align: center;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.frase{
+		font-size: 25px;
+	}
+	footer{
+		padding-left: 1px;
 	}
 }
+
 
 
